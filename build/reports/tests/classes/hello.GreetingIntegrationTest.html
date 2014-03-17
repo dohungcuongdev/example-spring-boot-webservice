@@ -1,0 +1,137 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta httpEquiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Test results - Class hello.GreetingIntegrationTest</title>
+<link href="css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="css/style.css" rel="stylesheet" type="text/css"/>
+<script src="js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class hello.GreetingIntegrationTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/hello.html">hello</a> &gt; GreetingIntegrationTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">2</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">1.347s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">returnsACorrectResponse</td>
+<td>1.317s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">returnsAPersonalisedMessage</td>
+<td>0.030s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>15:29:27.806 [Test worker] DEBUG o.s.t.c.j.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class hello.GreetingIntegrationTest].
+15:29:27.846 [Test worker] DEBUG o.s.test.context.ContextLoaderUtils - Found explicit ContextLoader class [org.springframework.boot.test.SpringApplicationContextLoader] for context configuration attributes [ContextConfigurationAttributes@199155be declaringClass = 'org.springframework.boot.test.SpringApplicationConfiguration', locations = '{}', classes = '{class hello.Application}', inheritLocations = true, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.boot.test.SpringApplicationContextLoader']
+15:29:27.852 [Test worker] DEBUG o.s.test.context.ContextLoaderUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [hello.GreetingIntegrationTest]
+15:29:27.855 [Test worker] DEBUG o.s.test.context.TestContextManager - @TestExecutionListeners is not present for class [class hello.GreetingIntegrationTest]: using defaults.
+15:29:27.862 [Test worker] INFO  o.s.test.context.TestContextManager - Could not instantiate TestExecutionListener class [org.springframework.test.context.transaction.TransactionalTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their dependencies) available.
+15:29:27.864 [Test worker] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [hello.GreetingIntegrationTest]
+15:29:27.864 [Test worker] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [hello.GreetingIntegrationTest]
+15:29:27.866 [Test worker] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [hello.GreetingIntegrationTest]
+15:29:27.866 [Test worker] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [hello.GreetingIntegrationTest]
+15:29:27.867 [Test worker] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [hello.GreetingIntegrationTest]
+15:29:27.867 [Test worker] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [hello.GreetingIntegrationTest]
+15:29:27.869 [Test worker] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [hello.GreetingIntegrationTest]
+15:29:27.869 [Test worker] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [hello.GreetingIntegrationTest]
+15:29:27.871 [Test worker] DEBUG o.s.t.c.s.DependencyInjectionTestExecutionListener - Performing dependency injection for test context [[DefaultTestContext@7d6904c4 testClass = GreetingIntegrationTest, testInstance = hello.GreetingIntegrationTest@79b8202e, testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@2748ea70 testClass = GreetingIntegrationTest, locations = '{}', classes = '{class hello.Application}', contextInitializerClasses = '[]', activeProfiles = '{}', contextLoader = 'org.springframework.boot.test.SpringApplicationContextLoader', parent = [null]]]].
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::            (v1.0.0.RC4)
+
+2014-03-17 15:29:28.223  INFO 11027 --- [    Test worker] o.s.boot.SpringApplication               : Starting application on manub-mbp.local with PID 11027 (/Users/manub/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot/1.0.0.RC4/b8934d1dcdfd6f454ad86ea7372fd8a6dd2f6e61/spring-boot-1.0.0.RC4.jar started by manub)
+2014-03-17 15:29:28.250  INFO 11027 --- [    Test worker] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@7fcfe433: startup date [Mon Mar 17 15:29:28 GMT 2014]; root of context hierarchy
+2014-03-17 15:29:28.954  INFO 11027 --- [    Test worker] o.s.boot.SpringApplication               : Started application in 1.017 seconds (JVM running for 1.839)
+2014-03-17 15:29:28.999  INFO 11027 --- [    Test worker] ilder$StaticRequestMappingHandlerMapping : Mapped &quot;{[/greeting],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}&quot; onto public hello.Greeting hello.GreetingController.greeting(java.lang.String)
+2014-03-17 15:29:29.074  INFO 11027 --- [    Test worker] o.s.mock.web.MockServletContext          : Initializing Spring FrameworkServlet ''
+2014-03-17 15:29:29.075  INFO 11027 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization started
+2014-03-17 15:29:29.077  INFO 11027 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization completed in 2 ms
+2014-03-17 15:29:29.189  INFO 11027 --- [    Test worker] ilder$StaticRequestMappingHandlerMapping : Mapped &quot;{[/greeting],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}&quot; onto public hello.Greeting hello.GreetingController.greeting(java.lang.String)
+2014-03-17 15:29:29.214  INFO 11027 --- [    Test worker] o.s.mock.web.MockServletContext          : Initializing Spring FrameworkServlet ''
+2014-03-17 15:29:29.214  INFO 11027 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization started
+2014-03-17 15:29:29.215  INFO 11027 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization completed in 0 ms
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>Generated by 
+<a href="http://www.gradle.org">Gradle 1.11</a> at 17-Mar-2014 15:29:29</p>
+</div>
+</div>
+</body>
